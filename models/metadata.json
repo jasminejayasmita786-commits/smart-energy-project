@@ -1,0 +1,96 @@
+{
+  "feature_names": [
+    "Outdoor Temperature (°C)",
+    "Household Size",
+    "hour",
+    "month",
+    "day_of_week",
+    "Appliance Type_Computer",
+    "Appliance Type_Dishwasher",
+    "Appliance Type_Fridge",
+    "Appliance Type_Heater",
+    "Appliance Type_Lights",
+    "Appliance Type_Microwave",
+    "Appliance Type_Oven",
+    "Appliance Type_TV",
+    "Appliance Type_Washing Machine",
+    "Season_Spring",
+    "Season_Summer",
+    "Season_Winter"
+  ],
+  "random_state": 42,
+  "train_rows": 80000,
+  "test_rows": 20000,
+  "models": {
+    "Linear Regression": {
+      "file": "linear_regression.joblib",
+      "MAE": 0.4759914574538023,
+      "MSE": 0.3410560818788049,
+      "RMSE": 0.5840000701017123,
+      "R2": 0.7575206343122081,
+      "fit_seconds": 0.02
+    },
+    "Polynomial Regression (deg 2)": {
+      "file": "polynomial_regression.joblib",
+      "MAE": 0.47602016696090776,
+      "MSE": 0.34099625394678285,
+      "RMSE": 0.5839488453167647,
+      "R2": 0.7575631699530541,
+      "fit_seconds": 0.3
+    },
+    "Decision Tree": {
+      "file": "decision_tree.joblib",
+      "MAE": 0.47691466002539346,
+      "MSE": 0.34335253242764047,
+      "RMSE": 0.5859629104539301,
+      "R2": 0.7558879354629529,
+      "fit_seconds": 0.09,
+      "feature_importances": {
+        "Outdoor Temperature (°C)": 0.0009675686937889045,
+        "Household Size": 0.00028318720598390215,
+        "hour": 0.0005451650669944272,
+        "month": 0.0002866839200249568,
+        "day_of_week": 0.0002486110842503146,
+        "Appliance Type_Computer": 0.013456565758401368,
+        "Appliance Type_Dishwasher": 0.028039657901269097,
+        "Appliance Type_Fridge": 0.10214474975380564,
+        "Appliance Type_Heater": 0.4144775559626911,
+        "Appliance Type_Lights": 0.010790881798842356,
+        "Appliance Type_Microwave": 0.27152313956093493,
+        "Appliance Type_Oven": 0.09177341297776444,
+        "Appliance Type_TV": 0.018756804303690065,
+        "Appliance Type_Washing Machine": 0.04658109133409963,
+        "Season_Spring": 6.202990199987973e-05,
+        "Season_Summer": 4.421218953017266e-05,
+        "Season_Winter": 1.86825859286143e-05
+      }
+    },
+    "Random Forest": {
+      "file": "random_forest.joblib",
+      "MAE": 0.47635643291241375,
+      "MSE": 0.34189741440590726,
+      "RMSE": 0.584719945278,
+      "R2": 0.7569224752751944,
+      "fit_seconds": 1.84,
+      "feature_importances": {
+        "Outdoor Temperature (°C)": 0.006491284084189699,
+        "Household Size": 0.0013672377337731274,
+        "hour": 0.002995655848462859,
+        "month": 0.0019508235312330033,
+        "day_of_week": 0.0017390756825149856,
+        "Appliance Type_Computer": 0.04991651944144771,
+        "Appliance Type_Dishwasher": 0.04062527843639548,
+        "Appliance Type_Fridge": 0.10071814257790407,
+        "Appliance Type_Heater": 0.40934518402253806,
+        "Appliance Type_Lights": 0.011551621452917157,
+        "Appliance Type_Microwave": 0.1376660956033461,
+        "Appliance Type_Oven": 0.10039415458325807,
+        "Appliance Type_TV": 0.05579180761064957,
+        "Appliance Type_Washing Machine": 0.0788926931177016,
+        "Season_Spring": 0.00020750743782781188,
+        "Season_Summer": 0.0002611354892246953,
+        "Season_Winter": 8.5783346615945e-05
+      }
+    }
+  }
+}

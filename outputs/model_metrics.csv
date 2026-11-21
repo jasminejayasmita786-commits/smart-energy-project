@@ -1,0 +1,5 @@
+Model,MAE,MSE,RMSE,R²,Train R²,Fit time (s)
+Linear Regression,0.4760,0.3411,0.5840,0.7575,0.7553,0.0215
+Polynomial Regression (deg 2),0.4760,0.3410,0.5839,0.7576,0.7556,0.2926
+Decision Tree,0.4769,0.3434,0.5860,0.7559,0.7572,3.6716
+Random Forest,0.4764,0.3419,0.5847,0.7569,0.7659,43.4780

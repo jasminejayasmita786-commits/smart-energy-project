@@ -1,0 +1,18 @@
+,Decision Tree,Random Forest
+Season: Winter,0.00002,0.00009
+Season: Spring,0.00006,0.00021
+Season: Summer,0.00004,0.00026
+Household Size,0.00028,0.00137
+day_of_week,0.00025,0.00174
+month,0.00029,0.00195
+hour,0.00055,0.00300
+Outdoor Temperature (°C),0.00097,0.00649
+Appliance: Lights,0.01079,0.01155
+Appliance: Dishwasher,0.02804,0.04063
+Appliance: Computer,0.01346,0.04992
+Appliance: TV,0.01876,0.05579
+Appliance: Washing Machine,0.04658,0.07889
+Appliance: Oven,0.09177,0.10039
+Appliance: Fridge,0.10214,0.10072
+Appliance: Microwave,0.27152,0.13767
+Appliance: Heater,0.41448,0.40935
